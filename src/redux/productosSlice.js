@@ -122,9 +122,7 @@ export function editarProducto(producto) {
     return async (dispatch) => {
         try {
             await axios.put(`http://localhost:4000/productos/${producto.id}`, producto);    
-            dispatch({
-                payload: producto
-            });
+            dispatch( productoEditado ());
         } catch (error) {
             console.log(error);
             dispatch(LoadingError ());

@@ -6,9 +6,9 @@
       "precio": "500"
     },
     {
-      "id": 2,
-      "nombre": "Jugo de Limón",
-      "precio": 100
+      "id": "c84562aa-c3d8-4b71-bdc8-7f485aa0c523",
+      "nombre": "azucar",
+      "precio": "50"
     }
   ]
 }
